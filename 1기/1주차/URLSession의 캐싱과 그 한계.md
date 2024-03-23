@@ -16,7 +16,7 @@ URLSession은 관련된 네트워크 데이터 전송 task 그룹을 관리하�
 
 애플은 URLSession을 사용한 HTTP / HTTPS 통신에 대한 기본적인 캐싱을 제공한다. 그렇다면 어떤 구조로, 어디까지 캐싱을 지원하는 것일까?
 
-[이미지]
+<img src="https://github.com/ericKwon95/iOS_Study/assets/22342277/7122c998-9316-4297-982a-78223b24e2a8" width=900>
 
 URLSession은 URLSessionConfiguration을 주입받으며 초기화되고, 해당 configuration에서 캐싱 관련 설정을 한다.
 한 번 초기회된 URLSession의 configuration 프로퍼티는 변경 불가능하다. 해당 프로퍼티는 주입받은 URLSessionConfiguration의 복사본이기 때문에, 해당 프로퍼티를 변경해도 주입한 URLSessionConfiguration 설정이 변경되지는 않는다.
@@ -38,7 +38,8 @@ print("memory capacity: \(URLSession.shared.configuration.urlCache!.memoryCapaci
 print("disk capacity: \(URLSession.shared.configuration.urlCache!.diskCapacity) bytes")
 ```
 
-[이미지]
+<img width="266" alt="Screenshot 2024-03-08 at 5 38 26 PM" src="https://github.com/ericKwon95/iOS_Study/assets/22342277/8835fb8a-7891-417b-81c1-5ae2a9434dfd">
+
 
 URLSession이 제공하는 shared 인스턴스의 기본 캐시 용량은 아래와 같다. 
 - 메모리 캐시 용량 : 512KB
