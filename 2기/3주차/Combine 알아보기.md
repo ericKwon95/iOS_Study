@@ -84,6 +84,7 @@ extension Subscribers {
 - 프로퍼티 값을 할당할 땐 에러 처리가 필요하지 않기 때문에 Failure는 Never로 설정
 
 ## Publisher - Subscriber 동작 순서
+<img width="883" alt="Screenshot 2024-05-11 at 7 32 41 PM" src="https://github.com/ericKwon95/iOS_Study/assets/22342277/bf252490-8887-4e04-9143-11d63c0d8b53">
 
 
 ## 사용 예시 및 Operator의 필요성
@@ -100,6 +101,8 @@ graduationPublisher.subscribe(gradeSubscriber)
 ```
 - NotificationCenter의 Publisher의 값이 발행되면 Assign Subscriber에게 전달, 값을 저장
 - 그러나 이 코드는 Publisher의 Output 타입과 Subscriber의 Input 타입이 일치하지 않기 때문에 오류가 발생
+	<img width="885" alt="Screenshot 2024-05-11 at 7 36 53 PM" src="https://github.com/ericKwon95/iOS_Study/assets/22342277/a7385ec1-3881-4f50-8607-ccdb193dcbe7">
+
 - 타입을 변환해줄 무언가가 Publisher와 Subscriber의 사이에 필요함
 - 그것이 Operator
 
