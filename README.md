@@ -15,4 +15,5 @@ iOS, Swift 스터디 발표 내용 정리
 | 1주차 | 휴식 | 휴식 |
 | 2주차 | 가족행사 | 가족행사 |
 | 3주차 | [Instruments 알아보기](https://github.com/ericKwon95/iOS_Study/blob/main/2%EA%B8%B0/3%EC%A3%BC%EC%B0%A8/Instruments%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0.md) | [Combine 알아보기](https://github.com/ericKwon95/iOS_Study/blob/main/2%EA%B8%B0/3%EC%A3%BC%EC%B0%A8/Combine%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0.md) |
-| 4주차 |  |  |
+
+[이곳](https://github.com/All-About-iOS/Weekly-I-Learned)에서 이어서 기록중입니다.
